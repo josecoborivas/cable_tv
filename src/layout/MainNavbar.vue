@@ -7,9 +7,7 @@
     :color-on-scroll="colorOnScroll"
   >
     <div class="md-toolbar-row md-collapse-lateral">
-      <div class="md-toolbar-section-start">
-        <h3 class="md-title">JC Development</h3>
-      </div>
+      
       <div class="md-toolbar-section-end">
         <md-button
           class="md-just-icon md-simple md-toolbar-toggle"
@@ -69,6 +67,15 @@
               >
                 <i class="material-icons">home</i>
                 <p style="margin-top: 10px; margin-left: 5px;">INICIO</p>
+              </md-list-item>
+
+              <md-list-item
+                target="_blank"
+                href="https://www.montecable.com/programacion"
+                v-if="showDownload"
+              >
+                <i class="material-icons">tv</i>
+                <p >PROGRAMACIÓN</p>
               </md-list-item>
 
 
