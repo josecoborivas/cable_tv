@@ -125,6 +125,11 @@
             <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=Canal 9&amp;stream=live/c3eds/Canal9/SA_Live_dash_enc_2A/Canal9.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
           </div>
 
+          <div class="md-layout-item" v-if="channel === 'cnnEs'">
+            <h1 class="title">CNN en Español</h1>
+            <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=CNN en Español&amp;stream=/live/c2live/CNN_en_Espanol/SA_Live_dash_enc_2A/CNN_en_Espanol.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
+          </div>
+
           <div class="md-layout-item" v-if="channel === 'wchannel'">
             <h1 class="title">Warner Channel</h1>
             <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=Warner Channel&amp;stream=/live/live/WarnerHD/SA_Live_dash_enc_2A/WarnerHD.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
@@ -145,6 +150,11 @@
             <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=Cinecanal&amp;stream=/live/c3eds/CinecanalHD/SA_Live_dash_enc_2A/CinecanalHD.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
           </div>
 
+          <div class="md-layout-item" v-if="channel === 'a3cine'">
+            <h1 class="title">A3Cine</h1>
+            <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=A3Cine&amp;stream=/live/live/A3_Cine/SA_Live_dash_enc_2A/A3_Cine.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
+          </div>
+
 
           <div class="md-layout-item" v-if="channel === 'amc'">
             <h1 class="title">AMC</h1>
@@ -159,6 +169,11 @@
           <div class="md-layout-item" v-if="channel === 'a3series'">
             <h1 class="title">A3Series</h1>
             <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=A3Series&amp;stream=/live/live/A3_Series/SA_Live_dash_enc_2A/A3_Series.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
+          </div>
+
+          <div class="md-layout-item" v-if="channel === 'comedyCentral'">
+            <h1 class="title">Comedy Central</h1>
+            <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=Comedy Central&amp;stream=/live/live/ComedyCentral/SA_Live_dash_enc_2A/ComedyCentral.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
           </div>
 
           <div class="md-layout-item" v-if="channel === 'cinemax'">
