@@ -116,8 +116,13 @@
           </div>
 
           <div class="md-layout-item" v-if="channel === 'telefe'">
-            <h1 class="title">Telefe</h1>
+            <h1 class="title">Telefe Argentina</h1>
             <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd-tlf.php?canal=Telefe&amp;stream=live/c3eds/TelefeHD/SA_Live_dash_enc_2A/TelefeHD.mpd" id="iframe" name="iframe" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+          </div>
+
+          <div class="md-layout-item" v-if="channel === 'canal9ar'">
+            <h1 class="title">Canal 9 Argentina</h1>
+            <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=Canal 9&amp;stream=live/c3eds/Canal9/SA_Live_dash_enc_2A/Canal9.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
           </div>
 
           <div class="md-layout-item" v-if="channel === 'wchannel'">
@@ -149,6 +154,11 @@
           <div class="md-layout-item" v-if="channel === 'tntSeries'">
             <h1 class="title">TNT Series</h1>
             <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=TNT Series&amp;stream=/live/c3eds/TNTSeries/SA_Live_dash_enc_2A/TNTSeries.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
+          </div>
+
+          <div class="md-layout-item" v-if="channel === 'a3series'">
+            <h1 class="title">A3Series</h1>
+            <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=A3Series&amp;stream=/live/live/A3_Series/SA_Live_dash_enc_2A/A3_Series.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
           </div>
 
           <div class="md-layout-item" v-if="channel === 'cinemax'">

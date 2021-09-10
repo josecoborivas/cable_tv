@@ -120,6 +120,10 @@
                 <img style="width: 200px; heigth:200px; cursor: pointer;" link @click="ver('telefe')" src="@/assets/img/logos/telefe.png" alt="">
               </v-col>
 
+              <v-col cols="3" md="3" align="center" style="display: flex; align-items: center;">
+                <img style="width: 200px; heigth:200px; cursor: pointer;" link @click="ver('canal9ar')" src="@/assets/img/logos/canal9ar.png" alt="">
+              </v-col>
+
                <v-col cols="3" md="3" align="center" style="display: flex; align-items: center;">
                 <img style="width: 200px; heigth:200px; cursor: pointer;" link @click="ver('history')" src="@/assets/img/logos/history.png" alt="">
               </v-col>
@@ -154,6 +158,10 @@
 
               <v-col cols="3" md="3" align="center" style="display: flex; align-items: center;">
                 <img style="width: 200px; heigth:200px; cursor: pointer;" link @click="ver('tntSeries')" src="@/assets/img/logos/tntSeries.png" alt="">
+              </v-col>
+
+              <v-col cols="3" md="3" align="center" style="display: flex; align-items: center;">
+                <img style="width: 200px; heigth:200px; cursor: pointer;" link @click="ver('a3series')" src="@/assets/img/logos/a3series.png" alt="">
               </v-col>
 
               <v-col cols="3" md="3" align="center" style="display: flex; align-items: center;">
