@@ -250,6 +250,21 @@
             <h1 class="title">A&E</h1>
             <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" width="100%" height="100%" src="https://tv7.mitele.uno/embed/mpd.php?canal=A and E&amp;stream=/live/live/AEHD/SA_Live_dash_enc_2A/AEHD.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
           </div>
+
+          <div class="md-layout-item" v-if="channel === 'HBO'">
+            <h1 class="title">HBO</h1>
+            <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" src="https://tv7.mitele.uno/embed/jw.php?canal=HBO&stream=/live/c3eds/HBOHD/SA_Live_dash_enc_2A/HBOHD.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
+          </div>
+
+          <div class="md-layout-item" v-if="channel === 'HBOPlus'">
+            <h1 class="title">HBO Plus</h1>
+            <iframe style="height: 553px; width:1000px" allow="autoplay *; encrypted-media *;" src="https://tv7.mitele.uno/embed/jw.php?canal=HBO Plus&stream=/live/c2live/HBO_Plus/SA_Live_dash_enc_2A/HBO_Plus.mpd" id="iframe" name="iframe" frameborder="1" scrolling="yes" allowfullscreen=""></iframe>
+          </div>
+
+          <div class="md-layout-item" v-if="channel === 'HBOExtreme'">
+            <h1 class="title">HBO Extreme</h1>
+            <iframe style="height: 553px; width:1000px" allow="autoplay *; encrypted-media *;" src="https://tv7.mitele.uno/embed/jw.php?canal=HBO Xtreme&stream=/live/c2live/Max_Prime_HD/SA_Live_dash_enc_2A/Max_Prime_HD.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
+          </div>
           
 
         </div>

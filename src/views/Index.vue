@@ -216,6 +216,18 @@
                 <img style="width: 150px; heigth:150px; cursor: pointer;" link @click="ver('starChannelTv')" src="@/assets/img/logos/starChannelTv.png" alt="">
               </v-col>
 
+              <v-col cols="2" md="2" align="center" style="display: flex; align-items: center; margin-bottom: 7px;">
+                <img style="width: 150px; heigth:150px; cursor: pointer;" link @click="ver('HBO')" src="@/assets/img/logos/HBO.png" alt="">
+              </v-col>
+
+              <v-col cols="2" md="2" align="center" style="display: flex; align-items: center; margin-bottom: 7px;">
+                <img style="width: 150px; heigth:150px; cursor: pointer;" link @click="ver('HBOPlus')" src="@/assets/img/logos/HBOPlus.png" alt="">
+              </v-col>
+
+              <v-col cols="2" md="2" align="center" style="display: flex; align-items: center; margin-bottom: 7px;">
+                <img style="width: 150px; heigth:150px; cursor: pointer;" link @click="ver('HBOExtreme')" src="@/assets/img/logos/HBOExtreme.png" alt="">
+              </v-col>
+
               
 
               
