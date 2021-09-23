@@ -256,6 +256,11 @@
             <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" src="https://tv7.mitele.uno/embed/jw.php?canal=HBO&stream=/live/c3eds/HBOHD/SA_Live_dash_enc_2A/HBOHD.mpd" id="iframe" name="iframe" frameborder="0" scrolling="yes" allowfullscreen=""></iframe>
           </div>
 
+          <div class="md-layout-item" v-if="channel === 'HBO2'">
+            <h1 class="title">HBO 2</h1>
+            <iframe style="height: 563px; width:1000px" allow="autoplay *; encrypted-media *;" src="https://tv7.mitele.uno/embed/jw.php?canal=HBO 2&stream=/live/c2live/HBO_2/SA_Live_dash_enc_2A/HBO_2.mpd" id="iframe" name="iframe" frameborder="1" scrolling="yes" allowfullscreen=""></iframe>
+          </div>
+
           <div class="md-layout-item" v-if="channel === 'HBOPlus'">
             <h1 class="title">HBO Plus</h1>
             <iframe style="height: 553px; width:1000px" allow="autoplay *; encrypted-media *;" src="https://tv7.mitele.uno/embed/jw.php?canal=HBO Plus&stream=/live/c2live/HBO_Plus/SA_Live_dash_enc_2A/HBO_Plus.mpd" id="iframe" name="iframe" frameborder="1" scrolling="yes" allowfullscreen=""></iframe>
